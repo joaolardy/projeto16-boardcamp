@@ -6,6 +6,6 @@ const rentalsRoute = Router();
 rentalsRoute.get('/rentals', getRentals);
 rentalsRoute.post('/rentals', postRental);
 // rentalsRoute.post('/rentals/:id/return', finishRental);
-// rentalsRoute.delete('/rentals/:id', deleteRental);
+rentalsRoute.delete('/rentals/:id', deleteRental);
 
 export default rentalsRoute;
